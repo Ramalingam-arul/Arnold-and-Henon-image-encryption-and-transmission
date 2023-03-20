@@ -273,9 +273,3 @@ class loginpage:
 
         self.gen_bt = tkin.Button(self.frame, text="generate new key pairs", font=('Supreme', 8),bg='#5DA7DB', command=self.new_key_gen)
         self.gen_bt.grid(pady=(5,0), sticky='enw')
-
-        self.by_label = tkin.Label(self.frame, text="By, Ramalingam A", font=('Supreme', 10, 'bold'), bg='#7DE5ED')
-        self.by_label.grid(pady=(5,5))
-
-        self.reg_label = tkin.Label(self.frame, text="124003242", font=('Supreme', 10, 'bold'), bg='#7DE5ED')
-        self.reg_label.grid(pady=(5,8))
